@@ -1,0 +1,33 @@
+{
+    "name": "gnugat/ordono",
+    "license": "MIT",
+    "type": "library",
+    "description": "Simple input validation",
+    "keywords": ["options", "input", "command", "validation"],
+    "autoload": {
+        "psr-4": {
+            "Gnugat\\Ordono\\": "src/Gnugat/Ordono"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "examples\\Gnugat\\Ordono\\": "test/examples",
+            "fixtures\\Gnugat\\Ordono\\": "test/fixtures"
+        }
+    },
+    "authors": [{
+        "name": "Loïc Chardonnet",
+        "email": "loic.chardonnet@gmail.com",
+        "homepage": "http://gnugat.github.io",
+        "role": "Developer"
+    }],
+    "require": {
+        "php": ">=5.3.3",
+        "symfony/options-resolver": "~2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": ">=3.7,<5.0",
+        "phpspec/phpspec": "~2.0",
+        "symfony/http-foundation": "~2.0"
+    }
+}
