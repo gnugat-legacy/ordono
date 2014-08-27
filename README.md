@@ -26,7 +26,7 @@ use Gnugat\Ordono\CommandResolver;
 
 $command = new CreateQuoteCommand(); // Definition of a valid input
 $commandResolver = new CommandResolver();
-// $commandResolver->addConverter(new Symfony1RequestConverter());
+// $commandResolver->addConverter(new Symfony2RequestConverter());
 $commandResolver->resolve($command, $input); // Throws exceptions if something is wrong
 ```
 
