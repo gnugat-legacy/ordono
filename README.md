@@ -41,7 +41,7 @@ Use [Composer](https://getcomposer.org/) to install Ordono in your project:
 You can see the current and past versions using one of the following:
 
 * the `git tag` command
-* the [releases page on Github](https://github.com/gnugat/command/releases)
+* the [releases page on Github](https://github.com/gnugat/ordono/releases)
 * the file listing the [changes between versions](CHANGELOG.md)
 
 You can find more documentation at the following links:
